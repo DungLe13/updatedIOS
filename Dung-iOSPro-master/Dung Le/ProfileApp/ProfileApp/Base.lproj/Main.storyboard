@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ProfileApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="background" translatesAutoresizingMaskIntoConstraints="NO" id="lsO-xa-0BG">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="285"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="285" id="RMV-0I-yNF"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="DUNG LE" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="urH-JZ-TlB">
+                                <rect key="frame" x="230" y="139" width="140" height="79"/>
+                                <fontDescription key="fontDescription" name="Optima-BoldItalic" family="Optima" pointSize="24"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView opaque="NO" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="profilePic" translatesAutoresizingMaskIntoConstraints="NO" id="CsE-Sl-CXK">
+                                <rect key="frame" x="244" y="209" width="112" height="112"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="112" id="0Oh-ll-QnP"/>
+                                    <constraint firstAttribute="width" constant="112" id="T89-tu-5b9"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Second-year Student at Bennington College" textAlignment="center" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuF-FE-TtZ">
+                                <rect key="frame" x="194" y="322" width="213" height="83"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="213" id="8jv-jd-2TX"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gi7-9p-q8S">
+                                <rect key="frame" x="20" y="562" width="283" height="234"/>
+                                <string key="text">Since this is only my second term taking CS courses, my knowledge in specific programming languages can be limited. Yet, I am still confident in JavaScript and Python. From this class, I hope to learn a new programming language to be able to make my own application.</string>
+                                <fontDescription key="fontDescription" name="GurmukhiMN" family="Gurmukhi MN" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Followers: " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JKJ-mx-gm2">
+                                <rect key="frame" x="402" y="272" width="141" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="141" id="AJA-5p-AvO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4tt-dF-Jxh">
+                                <rect key="frame" x="20" y="268" width="107" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.43888865113726683" blue="0.3662682689536364" alpha="1" colorSpace="calibratedRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="FOLLOW">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YIN-Kj-7iX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="right" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FLL-GD-Tcu">
+                                <rect key="frame" x="324" y="382" width="246" height="198"/>
+                                <string key="text">Dung Le is an international student working towards Bachelor's Degree at Bennington College. His concentration is on Computer Science, with two supporting areas in Mathematics and Digital Arts.</string>
+                                <fontDescription key="fontDescription" name="GillSans-LightItalic" family="Gill Sans" pointSize="20"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular" misplaced="YES">
+                                    <rect key="frame" x="319" y="348" width="243" height="241"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="FLL-GD-Tcu" firstAttribute="top" secondItem="CsE-Sl-CXK" secondAttribute="bottom" constant="60" id="1NN-TE-6vG"/>
+                            <constraint firstItem="JKJ-mx-gm2" firstAttribute="centerY" secondItem="4tt-dF-Jxh" secondAttribute="centerY" id="79d-MM-yqV"/>
+                            <constraint firstItem="4tt-dF-Jxh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="3" id="BFC-KN-N88"/>
+                            <constraint firstItem="4tt-dF-Jxh" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="247" id="CgA-zQ-Qtb"/>
+                            <constraint firstItem="tuF-FE-TtZ" firstAttribute="top" secondItem="JKJ-mx-gm2" secondAttribute="bottom" constant="29" id="LWt-1J-Th3"/>
+                            <constraint firstItem="lsO-xa-0BG" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="N9a-hz-bVB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="JKJ-mx-gm2" secondAttribute="trailing" constant="-30" id="Nng-gQ-2BI"/>
+                            <constraint firstItem="CsE-Sl-CXK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="O0e-en-h0a"/>
+                            <constraint firstItem="lsO-xa-0BG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="Qbt-q5-Jlu"/>
+                            <constraint firstItem="CsE-Sl-CXK" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="180" id="hzZ-Fe-rs6"/>
+                            <constraint firstItem="urH-JZ-TlB" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="20" id="iDw-jK-zXN"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="FLL-GD-Tcu" secondAttribute="trailing" constant="5" id="j6R-iQ-tyG"/>
+                            <constraint firstItem="urH-JZ-TlB" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jOA-yw-9OG"/>
+                            <constraint firstItem="tuF-FE-TtZ" firstAttribute="top" secondItem="CsE-Sl-CXK" secondAttribute="bottom" constant="10" id="ked-ET-yAr"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="FLL-GD-Tcu" secondAttribute="bottom" constant="180" id="nuK-AK-PIf"/>
+                            <constraint firstItem="tuF-FE-TtZ" firstAttribute="centerX" secondItem="CsE-Sl-CXK" secondAttribute="centerX" id="pIX-o9-d09"/>
+                            <constraint firstItem="JKJ-mx-gm2" firstAttribute="baseline" secondItem="4tt-dF-Jxh" secondAttribute="baseline" id="qY9-mz-zJn"/>
+                            <constraint firstItem="lsO-xa-0BG" firstAttribute="centerX" secondItem="urH-JZ-TlB" secondAttribute="centerX" id="qfr-a9-uPz"/>
+                            <constraint firstItem="Gi7-9p-q8S" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="wg6-TG-EJo"/>
+                            <constraint firstItem="Gi7-9p-q8S" firstAttribute="top" secondItem="tuF-FE-TtZ" secondAttribute="bottom" constant="200" id="ytb-Az-4Xg"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="lsO-xa-0BG" id="bqj-8G-l5l"/>
+                        <outlet property="followerLabel" destination="JKJ-mx-gm2" id="A4N-3a-3M2"/>
+                        <outlet property="profilePic" destination="CsE-Sl-CXK" id="tCW-QX-58D"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="528" y="420.75"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="background" width="2048" height="1152"/>
+        <image name="profilePic" width="154" height="154"/>
+    </resources>
+</document>
